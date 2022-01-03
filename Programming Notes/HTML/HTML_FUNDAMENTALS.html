@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS_CLASS_ID.css">
+</head>
+<body>
+
+                                    <!-- EN BÜYÜK YAZI BAŞLIĞI -->     
+                                        <h1>Lorem ipsum dolor sit.</h1> 
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <h3>Lorem ipsum dolor sit.</h3>
+                                        <h4>Lorem ipsum dolor sit.</h4>
+                                        <h5>Lorem ipsum dolor sit.</h5>
+                                        <h6>Lorem ipsum dolor sit.</h6> 
+                                    <!-- EN KÜÇÜK YAZI BAŞLIĞI -->
+
+<!-- <p> bir paragraf tanımlar -->      <p>Lorem ipsum dolor sit. --> [p etiketi]</p>  
+
+<!-- 
+   ol içinde li kullanımı 
+   bu sıralı liste, başa numara atar --> <ol>
+                                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li>Architecto assumenda dicta corrupti perspiciatis explicabo.</li>
+                                            <li>Repellat quod corrupti incidunt at nobis.</li>
+                                         </ol>
+
+    
+<!-- ul içinde li kullanımı, başa nokta atar. -->
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li>Esse earum voluptatibus labore praesentium fugit.</li>
+                                            <li>Aperiam nam suscipit est harum maxime.</li>
+                                        </ul>
+
+<!-- DIV BLOK OLUŞTURMAYA YARAR -->
+                                        <div>
+                                            <ul>
+                                                <li>Lorem, ipsum dolor.</li>
+                                                <li>Nesciunt, magni laboriosam.</li>
+                                                <li>Sint, minus! Hic.</li>
+                                            </ul>
+                                        </div>
+
+    
+<!-- Aynı sayfa içinde başka linke yönlendirme, yeni sekme açmaz.-->    
+                                        <a href="https://kodluyoruz.org">kodlyoruz</a>               <br>
+                                        <a href="https://github.com">github tunahan burak dirlik</a> <br>
+
+<!-- SAYFANI EN ALT KISMINA GİTME -->
+                                        <ul>
+                                            <li>
+                                                <a href="#footer">ALT KISIM GİTME</a>
+                                                <!-- sayfanın en alt kısmına gitmek için # diez işareti kullanılır.
+                                                Sayfanın en alt kısmı ise #id şeklinde bir tag içinde belirtilir. -->
+                                            </li>
+                                        </ul>
+
+<!-- Olduğun sayfadan başka sayfaya yönlendirme, yeni sekme açar. -->
+<!-- _blank ile yeni pencerede açar _self ile aynı pencerede açar -->
+<p>ALTTAKİ RESİM _blank etiektiyle başka sayfaya yönlendirme </p>
+
+                                        <a href="https://picsum.photos/" target="_blank">
+                                                <img src="8bd99c128a04e2f8a242385f90e6886e.jpg" width="100px" height="200px" alt="V FOR VENDETTA">
+                                        </a>
+
+<!-- boşluk bırakma etiketi -->         <br>
+
+<!-- kalın yazma etiketi  strong -->    <strong>Lorem ipsum dolor sit amet consectetur.</strong> <br>
+
+<!-- italik yazma etiketi em -->        <em>Lorem ipsum dolor sit amet consectetur.</em> <br>
+
+<!-- Span etiketi görünürde birşey yapmaz, 
+    kare blok oluşturur. css ile kullanılır. -->
+
+                                        <p>Lorem ipsum <span>dolor sit</span> amet consectetur.</p>
+
+
+
+<!-- görsel koymak için img yazıp taba basmak yeterli, src içine link koy
+     eğer resim yüklenmezse alt kısmında yazan ekrana yansıtılır. -->
+                                        <img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_442,h_143/https://assets.ubuntu.com/v1/5d05e2fc-II-FF-download-mascots.svg" alt="ubuntu görseli">
+
+<br>
+
+<!-- width ve height verebilirsin. aşağıdaki link her seferinde farklı bir resim verir.-->
+                                        <img width="300" height="300" src="https://picsum.photos/200/300" alt="">
+
+<br>
+
+<!-- pc içinden foto vereceksen yolu yazman yeterli, html ile foto aynı yerdeyse direk foto ismini yaz. -->
+                                        <img src="8bd99c128a04e2f8a242385f90e6886e.jpg" alt="hacker " width="60px" height="100px">
+
+<!-- başka sayfaya yönlendirme, pathi yaz -->
+                                        <a href="iletisim.html">
+                                            Iletişim sayfasına git
+                                        </a>
+
+
+<br>
+
+<!-- resimde link yönlendirme -->
+
+                                        <a href="https://www.facebook.com">
+                                            <img src="https://geektech.me/wp-content/uploads/2021/07/86e8f58e12985e345777ed9901cc6dc5.jpg" width="100px" height="50px">
+                                        </a>
+
+<!-- YUKARDAKİ YAPI SAYFANIN EN ALT KISMINA GİTMEK İÇİN GEREKLİ -->
+                                        <h2 id="footer">EN ALT KISIM</h2>
+<!-- linkten direk mail yönlendirme  -->
+
+                                        <li>
+                                            <a href="mailto:tburakdirlik@gmail.com">
+                                                mail at
+                                            </a>
+                                        </li>
+<!-- BURASI TELEFONDAYSAN DİREK O NUMARAYI ARAMAYA ÇALIŞIR
+    BİLGİSAYARDAYSAN Bİ ARAMA UYGULAMASINA YÖNLENDİRMEYE ÇALIŞIR -->
+
+                                        <li>
+                                            <a href="tel:05536784805">
+                                                TELEFON AÇ
+                                            </a>
+                                        </li>
+
+
+
+<!-- EKRANA ÇİZGİ ÇİZME  hr etiketi --> <hr><hr><hr><hr>
+
+<!-- iframe ile link önizlemesi yapabilirsin. Genelde başka bir sitedeki belgeyi kendi sayfamızda göstermek için kullanırız -->
+                                        <iframe src="https://www.youtube.com/embed/BHPYQHnD_QA" frameborder="0"></iframe>
+
+<!-- buttobn etiketi buton koymaya yarar arasına yazdığında isim olur. -->
+                                        <BUtton>BUTTON</BUtton>
+                                        <br>
+                                        <button>button deneme 2</button>
+                                        <!-- buton oluşuyor ama bu butonlara bir işleve atanmadı.  -->
+                                        
+
+
+<!-- AŞAĞIDAKİ ROMA RAKAMI İLE LİSTELEMEDİR -->
+<p>AŞAĞIDAKİ ROMA RAKAMI İLE LİSTELEMEDİR</p>
+                                    <ol type="I">
+                                        <li>Javascript</li>
+                                        <li>C#</li>
+                                        <li>Php</li>
+                                    </ol>
+  
+<!-- AŞAĞIDAKİ ALFABETİK LİSTELEMEDİR. -->
+<p>AŞAĞIDAKİ ALFABETİK LİSTELEMEDİR</p>
+                                    <ol type="A">
+                                        <li>Javascript</li>
+                                        <li>C#</li>
+                                        <li>Php</li>
+                                    </ol>
+
+  <!-- AŞAĞIDAKİ LİSTELEME DE KARE VARDIR -->
+  <p>AŞAĞIDAKİ LİSTELEME DE KARE VARDIR</p>
+                                    <ul style="list-style-type:square">
+                                        <li>Telefon</li>
+                                        <li>Bilgisayar</li>
+                                        <li>Yazıcı</li>
+                                    </ul>
+
+
+
+<!-- ul>li^p == (ul>li)p --> <!-- soldaki emmetin çıkması altta -->
+                                    <!--
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                        
+                                        <p></p> 
+                                    -->
+
+<!-- article ne ?? -->
+                                    <article>
+                                        <h1>Lorem, ipsum dolor.</h1>
+                                        <h2>Lorem, ipsum.</h2>
+                                        <p>Lorem ipsum dolor sit.</p>
+                                        <p>Debitis, unde ipsam. Voluptatibus.</p>
+                                        <p>Illo maiores reiciendis suscipit!</p>
+                                    </article>
+
+
+                                    <article>
+                                        <h1 class="color-blue">Lorem, <span class="fw-normal"> Lorem, ipsum dolor.</span> ipsum dolor.</h1>
+                                        <h2>Lorem, ipsum.</h2>
+                                        <p>Lorem ipsum dolor sit.</p>
+                                        <p>Debitis, unde ipsam. Voluptatibus.</p>
+                                        <p>Illo maiores reiciendis suscipit!</p>
+                                    </article>
+
+
+
+
+
+<!-- 
+    head> etiketi sayfayla ilgili bilgiler içeren etiketler için bir kapsayıcıdır. Genellikle sayfanın <head> bölümünde yalnızca birkaç etiket kullanılır. Sayfanızın hiçbir metnini başlığa ( <head> etiketleri arasına ) koymamalısınız. Yine <head> etiketinin arasında bulunan lang anahtar kelimesinin amacı sayfa içeriğinin hangi dilde oluştuğudur. Bunu belirtmemizin sebebi arama motorlarında bize bu sayfayı tarayıcımızın diliyle zıt düştüğü durumda çevirme tavsiyesi verip vermemesini sağlamaktır.
+    htmlreference.io bu siteye bi ara bak
+     etiket isimlerini direk verebil
+    iyoruz
+    
+    + karde oge
+    > içinden öge
+    ^ yukarı çık oge oluştur
+    * çarp -> p*3
+    lorem
+    . -> class
+    # -> id
+   
+    ul>li  + tab tuşu     -> bunu kullan 
+    ul>li*5 + tab
+    ul>li*3>p>h3>p + tab
+    ul>li*3^p+2+h3
+    p>lorem
+    lorem4 ->4 kelimelik lorem üretir.
+    ul>li*3>lorem1^p*2>lorem4+h3>lorem1
+-->
+
+
+<!-- semantic html konusuna tekrar bak -->
+     
+<!-- 
+İşte burada kullanılan meta taglar, facebook ve twitter paylaşımlarımızda bir url paylaşmak istediğimizde karşımıza çıkıyor. Sosyal medyada bir url paylaşmak istediğimizde url'yi kopyaladıktan sonra bir kart görürüz. Bu kartta bir başlık bir resim ve kısa bir açıklama bulunur. İşte o bilgiler bu meta verilerden alınır.
+Arama motorları bizi meta verilerinde verilen "keywords" lere göre sıralamaya alır :
+<meta name="keywords" content="Kodluyoruz,programlama,web">
+Ayrıca arama motorlarında sayfa başlığının altındaki açıklamalarda da yine bu meta verilerine öncelik verilir :
+<meta name="description" content="Kodluyoruzla web öğrenmeye hazır mısınız?">
+Bazı arama sonuçlarında yazar adı görürsünüz. Bu kısım da yine meta etiketinin marifetidir:
+<meta name="author" content="Kodluyoruz">
+Meta etiketiyle söyleyeceğimiz son şey de viewport konusu. Akıllı telefonlarla birlikte geliştiriciler artık farklı cihazlara, farklı cihaz ekranlarında düzgün görünen kodlar yazmaya çalışıyor. Her ekranın genişliği boyutları farklı olduğu için tek bir ekran türüne göre tasarım ve kodlama yapmak da bu sorunu çözmüyor. Bu yüzden farklı cihazlarda da iyi görünen siteler yapmak için temel görünen alanı, bu alanın genişliğini vs tanımlamamız gerekiyor. İşte viewport burada yardımımıza koşuyor.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Burada genişliğin cihaz genişliğinde olduğunu ve zoom oranının 1.0 olacağını tarayıcıya belirmiş oluyoruz. Böylece mobilde masaüstü görünümü gibi bir görünüm değil olması gerektiği gibi düzgün bir görüntü elde ediyoruz. Detaylı bilgi için şurayı inceleyebilirsiniz : https://fatihhayrioglu.com/meta-viewport-etiketi/
+-->
+    
+
+
+
+
+</body>
+</html>
