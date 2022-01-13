@@ -54,15 +54,15 @@ public class Main {
 
         /*
 
-        ______________________________________________________________________________________________________________________________________________________
-        |                                                                                                                                                       |
-        |Parametre	        Açıklama                                                                                                                          |
-        |                                                                                                                                                       |
-        |isPresent()  -->	null kontorülüdür. Boş ise false, Dolu ise true değerini döndürür.                                                                |
-        |orElse()	  -->   kullanici.get().ad().orElse(“burak”) şeklinde bir şart ile true ya da false değer döndürerek gerekli nesneyi seçebilirsiniz       |
-        |orElseGet()  --> 	Nesne içerisinde eğer bir değer null ise varsaydığımız değeri göndeerebiliyoruz.                                                  |
-        |ifPresent()  -->	Eğer null değilse istediğimiz işlemleri ise bu parametre ile yapmaktayız.                                                         |
-        |_____________________________________________________________________________________________________________________________________________________  |
+_____________________________________________________________________________________________________________________________________________________
+|                                                                                                                                                    |
+|Parametre    Açıklama                                                                                                                               |
+|                                                                                                                                                    |
+|isPresent()  null kontorülüdür. Boş ise false, Dolu ise true değerini döndürür.                                                                     |
+|orElse()     kullanici.get().ad().orElse(“burak”) şeklinde bir şart ile true ya da false değer döndürerek gerekli nesneyi seçebilirsiniz            |
+|orElseGet()  Nesne içerisinde eğer bir değer null ise varsaydığımız değeri göndeerebiliyoruz.                                                       |
+|ifPresent()  Eğer null değilse istediğimiz işlemleri ise bu parametre ile yapmaktayız.                                                              |
+|____________________________________________________________________________________________________________________________________________________|
 
         */
     }
