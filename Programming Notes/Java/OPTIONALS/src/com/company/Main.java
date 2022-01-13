@@ -55,7 +55,7 @@ public class Main {
         /*
 
         ______________________________________________________________________________________________________________________________________________________
-        |                                                                                                                                                    |
+        |                                                                                                                                                       |
         |Parametre	        Açıklama                                                                                                                         |
         |                                                                                                                                                    |
         |isPresent()  -->	null kontorülüdür. Boş ise false, Dolu ise true değerini döndürür.                                                               |
