@@ -20,10 +20,11 @@ public class Main {
         |       Integer numara = null;                          |
         |       Double karesi = Math.pow(numara , 2); //(1)     |
         |       System.out.println("Sonuç: " + karesi);         |
-        |_______________________________________________________|______________________________________________________________________________________________________________________________
-        |                                                                                                                                                                                     |
-        | OUTPUT --> Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because "numara" is null at com.company.Main.main(Main.java:29)  |
-        |_____________________________________________________________________________________________________________________________________________________________________________________|
+        |_______________________________________________________|_______________________________________________________________
+        |                                                                                                                       |
+        | OUTPUT --> Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()"    |
+        | because "numara" is null at com.company.Main.main(Main.java:29)                                                       |
+        |_______________________________________________________________________________________________________________________|
         |                                                                   |
         | 1 -> Exception in thread “main” java.lang.NullPointerException    |
         | Bu istisna için if deyimiyle karşı önlem alınabilir.              |
