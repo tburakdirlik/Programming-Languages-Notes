@@ -211,8 +211,26 @@ class HelloWorldController{
             @RequestHeader ın gelmesii sağlayan şey verdiğim headerlardı
             @Pathvariable ın gelmesini sağlayan şey url deki 12
             @Requestparamın gelmesini sağlayan şey ? den sonraki key value çiftydi  --> memberName=tunahan
+            requestbody çoğunlukla post isteklerinde kullanılır, urlde taşımak istemeyeceğimiz,
+            
+            hassas bilgileri bunla taşırsın mesela, data bi yere yazılacaksa kullanılır.
+            request paramla geleln bilgileri ben bi yere kaydtemiyorum, datayyı updateetmek için kullanmıyorum
+            requestparamla sorgulama yaparsın genelde 
+            pathvariable urlden bi değer çekmek için --> >url yzılan değişkne ismiyle eşleşir.
+            postmapping ve requestparam birlikte kullanmıcaz çoğu zaman
+            postmappinng ve requsetbody çoğu zaman beraber
+            ? demek benim url im bitti query paramtresi geçmeye başıcam demektir.
+            validasyon koycaksak @Valid koymamız gerekiyor
+            @Valid null gönderiyorsam eğer bunu engellemeye çalışır  
+            @Valid, içerde validasyonlar var mapleme yapmadan önce onları kontrol et demeye yarıyo
+            Tek başına @Valid veya tek başına @NotNull yeterli değil
+            @NotBlank bana boş string gönderme demek
 
-
+                @NotBlank
+                private String name;
+            kullanımı da yukardaki gibi
+            @NotEmpty den white spaceler geçiyor
+            
 before that commit 5fc9d67 
             */
 //----------------------------------------------------------------------------------------------------------------------
