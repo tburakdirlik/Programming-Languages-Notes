@@ -182,6 +182,14 @@ class HelloWorldController{
             Json diyo ki sayı mısın değil misin kardeşim bana onu söyle veya text misin değil misin ?
             Json için listin veya setin de bir önemi yok. set dönmek veya list dönmek json için farketmiyor.
             Json kullanmak spring bootun default davranışı.
+            rest tek taraflı bir iletişim
+            web socket çift taraflı bir iletişim, 2 taraf arasında bir connection açılıyor.
+
+            GELEN RESPONSE 
+            http 200 li geliyorsa başarılıdır.
+            http 300 lü bişey geliyorsa redirect olayı var
+            http 400 lü bişey geliyorsa client hatalı kullanmaya çalışmıştır o yüzden hata almıştır.
+            http 500 lü bişey geliyorsa server patlamıştır
             
             --> https://www.blogkafem.net/2020/05/spring-boot-bean-component-configuration-autoconfiguration-componentscan-anotasyonlari.html
  */
