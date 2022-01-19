@@ -212,6 +212,8 @@ class HelloWorldController{
             @Pathvariable ın gelmesini sağlayan şey url deki 12
             @Requestparamın gelmesini sağlayan şey ? den sonraki key value çiftydi  --> memberName=tunahan
 
+
+before that commit 5fc9d67 
             */
 //----------------------------------------------------------------------------------------------------------------------
 }
