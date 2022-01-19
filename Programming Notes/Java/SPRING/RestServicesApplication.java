@@ -182,7 +182,8 @@ class HelloWorldController{
             Json diyo ki sayı mısın değil misin kardeşim bana onu söyle veya text misin değil misin ?
             Json için listin veya setin de bir önemi yok. set dönmek veya list dönmek json için farketmiyor.
             Json kullanmak spring bootun default davranışı.
-
+            
+            --> https://www.blogkafem.net/2020/05/spring-boot-bean-component-configuration-autoconfiguration-componentscan-anotasyonlari.html
  */
 //----------------------------------------------------------------------------------------------------------------------
 }
