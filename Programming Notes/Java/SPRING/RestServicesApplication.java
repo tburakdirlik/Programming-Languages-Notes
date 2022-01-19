@@ -1,4 +1,4 @@
-//                                                  2. HAFTA CUMARTESİ
+//                                                            2. HAFTA CUMARTESİ
 
 package com.spring.restservices;
 import lombok.Builder;
@@ -150,15 +150,24 @@ class HelloWorldController{
             her rest servis http servisdir aynı zamanda, ama her http servis rest değildir.
             rest aslında bir mimari stildir.
             Http nin daha derli toplu uygulanmış halidir.
-            bittorrent mimarisi incele
+            bittorrent yapısını mimarisi incele
 
             spring boot application hiyerarşik olarak kendisiyle aynı seviyede olan veya
             alt paketlerde olan componentleri bulur ve contextlerine ekler
 
-            @Configuration
+            @Configuration Anotasyonu Ne Yapar?
+            
+             @Bean tanımlaması içeren fonksiyonlar içerir.
+             Tanımlandığı fonksiyon her neyi return ediyorsa, onun context içine ekleneceğini belirtir.
+             @Bean, genelde 3rd parti sınıflar context içine eklenmek istediğinde kullanılır.
+             Dosya içerisinden birden çok bean tanımı olabileceğini belirtir.
+             Eskiden config işlemleri xml dosyaları içinde yapılırken, Spring 3’ten sonra 
+             @Configuration anotasyonuyla java sınıflarından @Bean tanımlamasıyla yapabilme özgürlüğü geldi.
+             Runtime anında config olarak tanımlanan sınıf içindeki @Bean anotasyonlarının, spring container tarafından işlenebilmesi için belirtilir.
+             Aslında @Configuration olarak tanımlanan sınıf içindeki @Bean tanımlamalarının her biri için app context içinde oluşturulmak üzere otomatik 
+             xml tanımlaması yapılmış oluyor. Eğer ben tanımı XML dosyasından yapıldıysa, @ImportResource(“another-application-context.xml”) tanımlaması 
+             ile harici bir xml import edilebilir. @Import(OtherConfiguration.class) tanımlamasıyla harici bir config import edilebilir.
 
-
-            endpoint = dışardan erişebildiğim bir nokta
             spring boot uygulamaları default olarak 8080 portunu kullanır
             aynı pc de 2 tane spring boot uygulaması varsa bir tanesinin port numarasını değiştirmem
             gerekir.
