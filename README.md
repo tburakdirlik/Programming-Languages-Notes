@@ -1,2 +1,19 @@
 # Programming-Languages-Notes
-HTML/CSS/JavaScript/Java/Python/C
+
+## Java 
+
+### Python
+
+### C
+
+### HTML
+
+### CSS
+
+### DOCKER
+
+### MONGO
+
+### Coderbyte-Problem-Solutions
+
+### CYBER
