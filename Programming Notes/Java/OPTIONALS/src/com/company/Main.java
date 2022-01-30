@@ -60,7 +60,7 @@ public class Main {
         |Parametre    Açıklama                                                                                                                               |
         |                                                                                                                                                    |
         |isPresent()  null kontorülüdür. Boş ise false, Dolu ise true değerini döndürür.                                                                     |
-        |orElse()     kullanici.get().ad().orElse(“burak”) şeklinde bir şart ile true ya da false değer döndürerek gerekli nesneyi seçebilirsiniz            |
+        |orElse()     kullanici.get().ad().orElse(“patika”) şeklinde bir şart ile true ya da false değer döndürerek gerekli nesneyi seçebilirsiniz            |
         |orElseGet()  Nesne içerisinde eğer bir değer null ise varsaydığımız değeri göndeerebiliyoruz.                                                       |
         |ifPresent()  Eğer null değilse istediğimiz işlemleri ise bu parametre ile yapmaktayız.                                                              |
         |____________________________________________________________________________________________________________________________________________________|
@@ -93,7 +93,7 @@ Optional nesnelerinin sarmaladığı veriler üzerinde süzme işlemi de yapıla
                 System.out.println(message);
 //Aşağıdaki Optional karşılığını kullanabiliriz.
 
-        String message2 = "tunahan burak dirlik";
+        String message2 = "patika bootcamp";
         Optional<String> opt = Optional.ofNullable(message2);
 
         opt
